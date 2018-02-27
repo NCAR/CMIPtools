@@ -1,5 +1,5 @@
 # CMIPscripts
-Repository of contributed scripts for the [CMIP Analysis Platform](http://www2.cisl.ucar.edu/resources/cmip-analysis-platform)
+Repository of contributed material for the [CMIP Analysis Platform](http://www2.cisl.ucar.edu/resources/cmip-analysis-platform)
 
 # Other sources of useful scripts
 * [NCL Applications page](http://www.ncl.ucar.edu/Applications/)
