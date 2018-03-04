@@ -1,0 +1,660 @@
+# cmip5_variables
+# dictionary structure: {realm : {varname : {long_name : string, 'frequency' : list}}}
+ocnBgchem :
+  bfe :
+    long_name : 'mole_concentration_of_particulate_organic_matter_expressed_as_iron_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  bsi :
+    long_name : 'mole_concentration_of_particulate_matter_expressed_as_silicon_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  calc :
+    long_name : 'mole_concentration_of_calcite_expressed_as_carbon_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  chl :
+    long_name : 'mass_concentration_of_phytoplankton_expressed_as_chlorophyll_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  co3 :
+    long_name : 'mole_concentration_of_carbonate_expressed_as_carbon_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  co3satcalc :
+    long_name : 'mole_concentration_of_calcite_expressed_as_carbon_in_sea_water_at_saturation'
+    frequency :
+      - mon
+      - yr
+  dcalc :
+    long_name : 'tendency_of_mole_concentration_of_calcite_expressed_as_carbon_in_sea_water_due_to_dissolution'
+    frequency :
+      - yr
+  detoc :
+    long_name : 'mole_concentration_of_organic_detritus_expressed_as_carbon_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  dfe :
+    long_name : 'mole_concentration_of_dissolved_iron_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  dissic :
+    long_name : 'mole_concentration_of_dissolved_inorganic_carbon_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  dissoc :
+    long_name : 'mole_concentration_of_dissolved_organic_carbon_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  dms :
+    long_name : 'mole_concentration_of_dimethyl_sulfide_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  dpco2 :
+    long_name : 'surface_carbon_dioxide_partial_pressure_difference_between_sea_water_and_air'
+    frequency :
+      - mon
+  dpo2 :
+    long_name : 'surface_molecular_oxygen_partial_pressure_difference_between_sea_water_and_air'
+    frequency :
+      - mon
+  epc100 :
+    long_name : 'sinking_mole_flux_of_particulate_organic_matter_expressed_as_carbon_in_sea_water'
+    frequency :
+      - mon
+  epcalc100 :
+    long_name : 'sinking_mole_flux_of_calcite_expressed_as_carbon_in_sea_water'
+    frequency :
+      - mon
+  epfe100 :
+    long_name : 'sinking_mole_flux_of_particulate_iron_in_sea_water'
+    frequency :
+      - mon
+  epsi100 :
+    long_name : 'sinking_mole_flux_of_particulate_silicon_in_sea_water'
+    frequency :
+      - mon
+  fddtalk :
+    long_name : 'integral_wrt_depth_of_tendency_of_sea_water_alkalinity_expressed_as_mole_equivalent'
+    frequency :
+      - mon
+  fddtdic :
+    long_name : 'tendency_of_ocean_mole_content_of_dissolved_inorganic_carbon'
+    frequency :
+      - mon
+  fddtdife :
+    long_name : 'tendency_of_ocean_mole_content_of_dissolved_inorganic_iron'
+    frequency :
+      - mon
+  fddtdin :
+    long_name : 'tendency_of_ocean_mole_content_of_dissolved_inorganic_nitrogen'
+    frequency :
+      - mon
+  fddtdip :
+    long_name : 'tendency_of_ocean_mole_content_of_dissolved_inorganic_phosphorus'
+    frequency :
+      - mon
+  fddtdisi :
+    long_name : 'tendency_of_ocean_mole_content_of_dissolved_inorganic_silicon'
+    frequency :
+      - mon
+  fgco2 :
+    long_name : 'surface_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon'
+    frequency :
+      - mon
+  fgdms :
+    long_name : 'surface_upward_mole_flux_of_dimethyl_sulfide'
+    frequency :
+      - mon
+  fgo2 :
+    long_name : 'surface_downward_mole_flux_of_molecular_oxygen'
+    frequency :
+      - mon
+  frc :
+    long_name : 'tendency_of_ocean_mole_content_of_carbon_due_to_sedimentation'
+    frequency :
+      - mon
+  frfe :
+    long_name : 'tendency_of_ocean_mole_content_of_iron_due_to_sedimentation'
+    frequency :
+      - mon
+  frn :
+    long_name : 'tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_denitrification_and_sedimentation'
+    frequency :
+      - mon
+  fsfe :
+    long_name : 'tendency_of_ocean_mole_content_of_iron_due_to_deposition_and_runoff_and_sediment_dissolution'
+    frequency :
+      - mon
+  graz :
+    long_name : 'tendency_of_mole_concentration_of_dissolved_iron_in_sea_water_due_to_grazing_of_phytoplankton'
+    frequency :
+      - yr
+  intdic :
+    long_name : 'ocean_mass_content_of_dissolved_inorganic_carbon'
+    frequency :
+      - mon
+  intpbfe :
+    long_name : 'tendency_of_ocean_mole_content_of_iron_due_to_biological_production'
+    frequency :
+      - mon
+  intpbsi :
+    long_name : 'tendency_of_ocean_mole_content_of_silicon_due_to_biological_production'
+    frequency :
+      - mon
+  intpcalc :
+    long_name : 'net_primary_mole_productivity_of_carbon_by_calcareous_phytoplankton'
+    frequency :
+      - mon
+  intpcalcite :
+    long_name : 'tendency_of_ocean_mole_content_of_calcite_expressed_as_carbon_due_to_biological_production'
+    frequency :
+      - mon
+  intpn2 :
+    long_name : 'tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_fixation'
+    frequency :
+      - mon
+  intpp :
+    long_name : 'net_primary_mole_productivity_of_carbon_by_phytoplankton'
+    frequency :
+      - mon
+  no3 :
+    long_name : 'mole_concentration_of_nitrate_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  o2 :
+    long_name : 'mole_concentration_of_dissolved_molecular_oxygen_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  o2min :
+    long_name : 'mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_shallowest_local_minimum_in_vertical_profile'
+    frequency :
+      - mon
+  pbfe :
+    long_name : 'tendency_of_mole_concentration_of_iron_in_sea_water_due_to_biological_production'
+    frequency :
+      - yr
+  pbsi :
+    long_name : 'tendency_of_mole_concentration_of_silicon_in_sea_water_due_to_biological_production'
+    frequency :
+      - yr
+  pcalc :
+    long_name : 'tendency_of_mole_concentration_of_calcite_expressed_as_carbon_in_sea_water_due_to_biological_production'
+    frequency :
+      - yr
+  ph :
+    long_name : 'sea_water_ph_reported_on_total_scale'
+    frequency :
+      - mon
+      - yr
+  phyc :
+    long_name : 'mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  phyfe :
+    long_name : 'mole_concentration_of_phytoplankton_expressed_as_iron_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  phyn :
+    long_name : 'mole_concentration_of_phytoplankton_expressed_as_nitrogen_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  phyp :
+    long_name : 'mole_concentration_of_phytoplankton_expressed_as_phosphorus_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  po4 :
+    long_name : 'mole_concentration_of_phosphate_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  pon :
+    long_name : 'mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  pop :
+    long_name : 'mole_concentration_of_particulate_organic_matter_expressed_as_phosphorus_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  pp :
+    long_name : 'tendency_of_mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water_due_to_net_primary_production'
+    frequency :
+      - yr
+  si :
+    long_name : 'mole_concentration_of_silicate_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  spco2 :
+    long_name : 'surface_partial_pressure_of_carbon_dioxide_in_sea_water'
+    frequency :
+      - mon
+  talk :
+    long_name : 'sea_water_alkalinity_expressed_as_mole_equivalent'
+    frequency :
+      - mon
+      - yr
+  zo2min :
+    long_name : 'depth_at_shallowest_local_minimum_in_vertical_profile_of_mole_concentration_of_dissolved_molecular_oxygen_in_sea_water'
+    frequency :
+      - mon
+  zooc :
+    long_name : 'mole_concentration_of_zooplankton_expressed_as_carbon_in_sea_water'
+    frequency :
+      - mon
+      - yr
+  zsatcalc :
+    long_name : 'minimum_depth_of_calcite_undersaturation_in_sea_water'
+    frequency :
+      - mon
+ocean :
+  areacello :
+    long_name : cell_area
+    frequency :
+      - fx
+  basin :
+    long_name : region
+    frequency :
+      - fx
+  deptho :
+    long_name : sea_floor_depth_below_geoid
+    frequency :
+      - fx
+  difvho :
+    long_name : ocean_vertical_heat_diffusivity
+    frequency :
+      - monClim
+  difvmo :
+    long_name : ocean_vertical_momentum_diffusivity
+    frequency :
+      - monClim
+  difvso :
+    long_name : ocean_vertical_salt_diffusivity
+    frequency :
+      - monClim
+  hfds :
+    long_name : surface_downward_heat_flux_in_sea_water
+    frequency :
+      - mon
+  hfsithermds :
+    long_name : heat_flux_into_sea_water_due_to_sea_ice_thermodynamics
+    frequency :
+      - mon
+  hfx :
+    long_name : ocean_heat_x_transport
+    frequency :
+      - mon
+  hfxba :
+    long_name : ocean_heat_x_transport_due_to_bolus_advection
+    frequency :
+      - mon
+  hfxdiff :
+    long_name : ocean_heat_x_transport_due_to_diffusion
+    frequency :
+      - mon
+  hfy :
+    long_name : ocean_heat_y_transport
+    frequency :
+      - mon
+  hfyba :
+    long_name : ocean_heat_y_transport_due_to_bolus_advection
+    frequency :
+      - mon
+  hfydiff :
+    long_name : ocean_heat_y_transport_due_to_diffusion
+    frequency :
+      - mon
+  masso :
+    long_name : sea_water_mass
+    frequency :
+      - mon
+  mfo :
+    long_name : sea_water_transport_across_line
+    frequency :
+      - mon
+  mlotst :
+    long_name : ocean_mixed_layer_thickness_defined_by_sigma_t
+    frequency :
+      - mon
+  mlotstsq :
+    long_name : square_of_ocean_mixed_layer_thickness_defined_by_sigma_t
+    frequency :
+      - mon
+  msftbarot :
+    long_name : ocean_barotropic_mass_streamfunction
+    frequency :
+      - mon
+  msftmyz :
+    long_name : ocean_meridional_overturning_mass_streamfunction
+    frequency :
+      - mon
+  omldamax :
+    long_name : ocean_mixed_layer_thickness_defined_by_mixing_scheme
+    frequency :
+      - day
+      - mon
+  omlmax :
+    long_name : ocean_mixed_layer_thickness_defined_by_mixing_scheme
+    frequency :
+      - mon
+  pbo :
+    long_name : sea_water_pressure_at_sea_floor
+    frequency :
+      - mon
+  rhopoto :
+    long_name : sea_water_potential_density
+    frequency :
+      - mon
+  rsntds :
+    long_name : net_downward_shortwave_flux_at_sea_water_surface
+    frequency :
+      - mon
+  sftof :
+    long_name : sea_area_fraction
+    frequency :
+      - fx
+  so :
+    long_name : sea_water_salinity
+    frequency :
+      - mon
+  soga :
+    long_name : sea_water_salinity
+    frequency :
+      - mon
+  sos :
+    long_name : sea_surface_salinity
+    frequency :
+      - mon
+  tauuo :
+    long_name : surface_downward_x_stress
+    frequency :
+      - mon
+  tauvo :
+    long_name : surface_downward_y_stress
+    frequency :
+      - mon
+  thetao :
+    long_name : sea_water_potential_temperature
+    frequency :
+      - mon
+  thetaoga :
+    long_name : sea_water_potential_temperature
+    frequency :
+      - mon
+  thkcello :
+    long_name : cell_thickness
+    frequency :
+      - mon
+  tos :
+    long_name : sea_surface_temperature
+    frequency :
+      - day
+      - mon
+  tossq :
+    long_name : square_of_sea_surface_temperature
+    frequency :
+      - day
+      - mon
+  umo :
+    long_name : ocean_mass_x_transport
+    frequency :
+      - mon
+  uo :
+    long_name : sea_water_x_velocity
+    frequency :
+      - mon
+  vmo :
+    long_name : ocean_mass_y_transport
+    frequency :
+      - mon
+  vo :
+    long_name : sea_water_y_velocity
+    frequency :
+      - mon
+  volcello :
+    long_name : ocean_volume
+    frequency :
+      - fx
+  volo :
+    long_name : sea_water_volume
+    frequency :
+      - mon
+  wfo :
+    long_name : water_flux_into_sea_water
+    frequency :
+      - mon
+  wmo :
+    long_name : upward_ocean_mass_transport
+    frequency :
+      - mon
+  wmosq :
+    long_name : square_of_upward_ocean_mass_transport
+    frequency :
+      - mon
+  zos :
+    long_name : sea_surface_height_above_geoid
+    frequency :
+      - mon
+  zosga :
+    long_name : global_average_sea_level_change
+    frequency :
+      - mon
+  zossga :
+    long_name : global_average_steric_sea_level_change
+    frequency :
+      - mon
+  zossq :
+    long_name : square_of_sea_surface_height_above_geoid
+    frequency :
+      - mon
+  zostoga :
+    long_name : global_average_thermosteric_sea_level_change
+    frequency :
+      - mon
+seaIce :
+  prsn :
+    long_name : snowfall_flux
+    frequency :
+      - mon
+  sic :
+    long_name : sea_ice_area_fraction
+    frequency :
+      - day
+      - mon
+  sim :
+    long_name : sea_ice_and_surface_snow_amount
+    frequency :
+      - mon
+  sit :
+    long_name : sea_ice_thickness
+    frequency :
+      - day
+      - mon
+  snd :
+    long_name : surface_snow_thickness
+    frequency :
+      - mon
+  strairx :
+    long_name : surface_downward_x_stress
+    frequency :
+      - mon
+  strairy :
+    long_name : surface_downward_y_stress
+    frequency :
+      - mon
+  strocnx :
+    long_name : upward_x_stress_at_sea_ice_base
+    frequency :
+      - mon
+  strocny :
+    long_name : upward_y_stress_at_sea_ice_base
+    frequency :
+      - mon
+  transifs :
+    long_name : sea_ice_transport_across_line
+    frequency :
+      - mon
+  transix :
+    long_name : sea_ice_x_transport
+    frequency :
+      - mon
+  transiy :
+    long_name : sea_ice_y_transport
+    frequency :
+      - mon
+  usi :
+    long_name : sea_ice_x_velocity
+    frequency :
+      - day
+  vsi :
+    long_name : sea_ice_y_velocity
+    frequency :
+      - day
+land :
+  baresoilFrac :
+    long_name : area_fraction
+    frequency :
+      - mon
+  burntArea :
+    long_name : area_fraction
+    frequency :
+      - mon
+  c3PftFrac :
+    long_name : area_fraction
+    frequency :
+      - mon
+  c4PftFrac :
+    long_name : area_fraction
+    frequency :
+      - mon
+  cLitter :
+    long_name : litter_carbon_content
+    frequency :
+      - mon
+  cSoil :
+    long_name : soil_carbon_content
+    frequency :
+      - mon
+  cVeg :
+    long_name : vegetation_carbon_content
+    frequency :
+      - mon
+  cropFrac :
+    long_name : area_fraction
+    frequency :
+      - mon
+  fFire :
+    long_name : surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fires_excluding_anthropogenic_land_use_change
+    frequency :
+      - mon
+  fLuc :
+    long_name : surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change
+    frequency :
+      - mon
+  fVegLitter :
+    long_name : litter_carbon_flux
+    frequency :
+      - mon
+  gpp :
+    long_name : gross_primary_productivity_of_carbon
+    frequency :
+      - mon
+  grassFrac :
+    long_name : area_fraction
+    frequency :
+      - mon
+  lai :
+    long_name : leaf_area_index
+    frequency :
+      - mon
+  landCoverFrac :
+    long_name : area_fraction
+    frequency :
+      - mon
+  mrro :
+    long_name : runoff_flux
+    frequency :
+      - day
+      - mon
+  mrros :
+    long_name : surface_runoff_flux
+    frequency :
+      - mon
+  mrso :
+    long_name : soil_moisture_content
+    frequency :
+      - mon
+  mrsofc :
+    long_name : soil_moisture_content_at_field_capacity
+    frequency :
+      - fx
+  nbp :
+    long_name : surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes
+    frequency :
+      - mon
+  npp :
+    long_name : net_primary_productivity_of_carbon
+    frequency :
+      - mon
+  pastureFrac :
+    long_name : area_fraction
+    frequency :
+      - mon
+  ra :
+    long_name : plant_respiration_carbon_flux
+    frequency :
+      - mon
+  residualFrac :
+    long_name : area_fraction
+    frequency :
+      - mon
+  rh :
+    long_name : heterotrophic_respiration_carbon_flux
+    frequency :
+      - mon
+  sftgif :
+    long_name : land_ice_area_fraction
+    frequency :
+      - fx
+  shrubFrac :
+    long_name : area_fraction
+    frequency :
+      - mon
+  snw :
+    long_name : surface_snow_amount
+    frequency :
+      - day
+  tran :
+    long_name : transpiration_flux
+    frequency :
+      - mon
+  treeFrac :
+    long_name : area_fraction
+    frequency :
+      - mon
+  tsl :
+    long_name : soil_temperature
+    frequency :
+      - mon
+  tslsi :
+    long_name : surface_temperature
+    frequency :
+      - day
