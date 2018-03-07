@@ -2,3 +2,4 @@
 *.DS_STORE
 *.ipynb_checkpoints*.pyc
 /*.egg-info
+.ipynb_checkpoints
